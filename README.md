@@ -6,11 +6,18 @@ CLI của [Claude](https://www.anthropic.com/claude?utm_source=chatgpt.com) và 
 ---
 # 0. FIle chạy nhanh cho macos, win cho người không rành 
 
+```cmd
 AI_Launcher.command -> cho win
-
 AI_Launcher.bat -> cho macos
+```
 
-Đối với macos, nhớ xài chmod +x AI_Launcher.command để cấp quyền trước
+Đối với macos, nhớ xài: 
+
+```cmd
+chmod +x AI_Launcher.command
+```
+
+để cấp quyền trước
 
 # 1. Claude CLI
 
