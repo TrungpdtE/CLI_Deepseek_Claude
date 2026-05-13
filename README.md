@@ -17,6 +17,12 @@ AI_Launcher.bat -> cho macos
 chmod +x AI_Launcher.command
 ```
 
+lưu ý macos nhớ export key mới có thể xài được lệnh hỏi nhanh deepseek:
+
+```cmd
+echo 'export DEEPSEEK_API_KEY="sk-...."' >> ~/.zshrc && source ~/.zshrc
+```
+
 để cấp quyền trước
 
 # 1. Claude CLI
@@ -89,26 +95,26 @@ claude
 
 ---
 
-## Quick mode (`-q`)
+## Quick mode (``)
 
 Khi cần hỏi nhanh 1 câu rồi thoát terminal luôn.
 
 ### Syntax
 
 ```bash
-claude -q "your prompt"
+claude "your prompt"
 ```
 
 ### Ví dụ
 
 ```bash
-claude -q "viết regex email"
+claude "viết regex email"
 
-claude -q "tạo REST API express"
+claude "tạo REST API express"
 
-claude -q "explain async await"
+claude "explain async await"
 
-claude -q "fix lỗi React useEffect"
+claude "fix lỗi React useEffect"
 ```
 
 ---
@@ -237,28 +243,28 @@ deepseek
 
 ---
 
-## Quick mode (`-q`)
+## Quick mode (``)
 
-`-q` chỉ là mode chạy nhanh 1 câu rồi thoát.
+`` chỉ là mode chạy nhanh 1 câu rồi thoát.
 
 ### Syntax
 
 ```bash
-deepseek -q "your prompt"
+deepseek -"your prompt"
 ```
 
 ### Ví dụ
 
 ```bash
-deepseek -q "viết regex email"
+deepseek "viết regex email"
 
-deepseek -q "tạo REST API nodejs"
+deepseek "tạo REST API nodejs"
 
-deepseek -q "explain async await"
+deepseek "explain async await"
 
-deepseek -q "fix lỗi CSS flexbox"
+deepseek "fix lỗi CSS flexbox"
 
-deepseek -q "viết script python rename file"
+deepseek "viết script python rename file"
 ```
 
 ---
@@ -273,7 +279,7 @@ deepseek -q "viết script python rename file"
 | Giá rẻ               | ⚠️         | ✅            |
 | Code explain         | ✅          | ✅            |
 | Refactor project lớn | ✅ mạnh     | ⚠️           |
-| Quick mode `-q`      | ✅          | ✅            |
+| Quick mode `deepseek `      | ✅          | ✅            |
 
 ---
 
