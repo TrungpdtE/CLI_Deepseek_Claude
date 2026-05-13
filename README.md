@@ -4,6 +4,13 @@ Cách sử dụng cli của deepseek và claudeAI (macOS và win)
 CLI của [Claude](https://www.anthropic.com/claude?utm_source=chatgpt.com) và [DeepSeek](https://www.deepseek.com/?utm_source=chatgpt.com) trên macOS + Windows Terminal/CMD.
 
 ---
+# 0. FIle chạy nhanh cho macos, win cho người không rành 
+
+AI_Launcher.command -> cho win
+
+AI_Launcher.bat -> cho macos
+
+Đối với macos, nhớ xài chmod +x AI_Launcher.command để cấp quyền trước
 
 # 1. Claude CLI
 
